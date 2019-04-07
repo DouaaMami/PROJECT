@@ -1,0 +1,30 @@
+<html>
+    <head>
+            <meta charset="utf-8"/>
+            <title> Ajouter TO DO</title>
+            <link rel="stylesheet" href="../css/bootstrap.min.css">
+    </head>
+    <body class="p-3 mb-2 bg-light text-dark">
+            <img src="../images/logo.jpg" alt="Logo" width="90" class="rounded mx-auto d-block">
+            <br>
+            <a href="home.html"> 
+                    <button class="btn btn-primary btn-lg btn-block btn btn-success"> Accueil </button>
+             </a>
+             <br>
+             <a href="connexion.html"> 
+                    <button class="btn btn-primary btn-lg btn-block "> Déconnexion </button>
+             </a>
+             <hr>
+             <h4 class="text-danger font-weight-bold"> Description </h4>
+             <form name="test" method="GET" action="../php/todo.php">
+                        <div class="form-group row">
+                                        <label for="inputEmail3" class="col-sm-2 col-form-label">To Do</label>
+                                        <div class="col-sm-10">
+                                          <input type="text" class="form-control" id="inputEmail3" placeholder="what do you have to do" name="ajout">
+                                        </div> 
+                                        <a href="home.html" >
+                                                        <button value="s'inscrire" class="btn btn-primary"> Ajout </button> </a>
+                                        <input type="reset" value="Effacer" class="btn btn-primary" />
+                    </form>
+    </body>
+</html>
